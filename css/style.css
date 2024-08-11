@@ -1,0 +1,86 @@
+*{
+	transition:all 0.8s;
+}
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFF;
+	background-color:#000;
+}
+.result-div{
+	color:#FFF;
+	width:98%;
+	height:94.5%;
+	position:absolute;
+	z-index:1;
+    font-size: 16px;
+	padding: 6px;
+	overflow-y:scroll;
+	background:url(../images/php-dos.png) center no-repeat #000;
+}
+.input-div{
+	color:#FFF;
+	background-color:#000;
+	width:100%;
+	height:30px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	z-index:1;
+	text-align:center;
+}
+.cmd-input-div{
+	font-size: 21px;
+	float:left;
+	position:relative;
+}
+.cmd-input{
+	position:relative;
+	font-size: 21px;
+	width:100%;
+	border: none;
+    outline: none;
+    background: #000;
+    color: #fff;
+}
+.FldList{
+	width:100%;
+}
+.col1, .col2, .col3, .col4{
+	float:left;
+	width:auto;
+	margin-right:30px;
+}
+.col1-help{
+	float:left;
+	width:auto;
+	margin-right:30px;
+    min-width: 100px;
+}
+.col2-help{
+	float:none;
+	width:auto;
+	margin-right:30px;
+	clear:right;
+}
+.col3-help, .col4-help{
+	float:left;
+	width:auto;
+	margin-right: 30px;
+    min-width: 100px;	
+}
+.col2{
+	margin-right:10px;
+}
+.clearfix{
+	clear:both;
+}
+.dir_name{
+	width:auto;
+	float:left;
+	margin-right:5px;
+	font-size:21px;
+}
+pre{
+	word-wrap: break-word;
+}

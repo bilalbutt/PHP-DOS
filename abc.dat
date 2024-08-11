@@ -1,0 +1,6 @@
+
+		How to add a new command in the PHP DOS
+
+1)	Add command in the "AllowedCmds" array in the "key.js" file.
+2)	Add Checks (if any) in the Bind event.
+3)	

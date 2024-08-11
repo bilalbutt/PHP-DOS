@@ -1,0 +1,10 @@
+
+		How to add a new command in the PHP DOS
+
+1)	Add CMD in the "AllowedCmds" array in the "key.js" file.
+2)	Add Checks (if any) in the Bind event.
+3)	Add CMD check in the "Ajax_RunCmd" function in the "ajax.js"
+4)	Add CMD file in the "ajax_php.php" file.
+5)	include the help file of the CMD in the "help.php" file.
+6)	Add CMD in the "Cmds" array in the "help.php" file.
+7)	Add CMD file in the "help" folder.
